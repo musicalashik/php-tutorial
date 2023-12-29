@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Universal Pension</title>
+    <link
+      rel="icon"
+      href="https://upension.gov.bd/assets/public/img/core-img/pensionFavIcon.png?v=25"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://upension.gov.bd/bundles/loginCss?v=kvBPWZ3A0PpHQPwIjR2uNSzp_r-ZR_Do50nidId3HT01"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://upension.gov.bd/assets/pensioner/plugins/fontawesome-free/css/fa.min.css?v=25"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://upension.gov.bd/assets/public/css/login.css?v=25"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://upension.gov.bd/assets/public/js/dropzone/dropzone.min.css?v=25"
+    />
+    <link
+      href="https://upension.gov.bd/bundles/publicWizardCss?v=2EAsxVCjhsOAEnB49yZ9jXL_Q5aGPHiEPHGZWtaNUtM1"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://upension.gov.bd/assets/public/css/ClientInformation.css?v=25"
+    />
+  </head>
+  <body>
+    <!-- ##### Preloader ##### -->
+    <div id="preloader" style="display: none">
+      <i class="circle-preloader"></i>
+    </div>
+
+    <!-- Login Form -->
+    <div class="container">
+      <div class="main">
+        <div class="text-center mb-4">
+          <a id="loginLogo" href="https://upension.gov.bd/Public">
+            <img
+              src="https://upension.gov.bd/assets/public/img/core-img/uPensionLogo.svg"
+              alt="Universal Pension Logo"
+              width="300"
+            />
+          </a>
+        </div>
+        <div class="innerContent">
+          <div class="row justify-content-center bg-white padding40">
+            <!-- SmartWizard html -->
+            <div
+              class="col-md-12 sw sw-theme-default sw-justified"
+              id="smartwizard"
+              dir=""
+            >
+              <ul class="nav nav-progress nav-pills">
+                <li class="nav-item mb-1">
+                  <a
+                    class="nav-link default active"
+                    href="https://upension.gov.bd/Public/ClientInformation#information"
+                  >
+                    ব্যক্তিগত তথ্য</a
+                  >
+                </li>
+                <li class="nav-item mb-1">
+                  <a
+                    class="nav-link default"
+                    href="https://upension.gov.bd/Public/ClientInformation#scheme"
+                  >
+                    স্কিম তথ্য
+                  </a>
+                </li>
+                <li class="nav-item mb-1">
+                  <a
+                    class="nav-link default"
+                    href="https://upension.gov.bd/Public/ClientInformation#bank"
+                  >
+                    ব্যাংক তথ্য
+                  </a>
+                </li>
+                <li class="nav-item mb-1">
+                  <a
+                    class="nav-link default"
+                    href="https://upension.gov.bd/Public/ClientInformation#nominee"
+                  >
+                    নমিনি তথ্য
+                  </a>
+                </li>
+                <li class="nav-item mb-1">
+                  <a
+                    class="nav-link default"
+                    href="https://upension.gov.bd/Public/ClientInformation#preview"
+                  >
+                    সম্পূর্ণ ফর্ম
+                  </a>
+                </li>
+              </ul>
+
+              <div class="border-bottom mb-3 mt-3"></div>
+
+              <div class="tab-content" style="height: 1064.59px">
+                <div
+                  id="information"
+                  class="tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="information"
+                  style="display: block"
+                >
+                  <div class="" id="oneContent">
+                    <div class="row align-items-start">
+                      <div class="col-md-8">
+                        <div class="form-group row">
+                          <label for="nid" class="col-md-4 col-form-label mr-30"
+                            >জাতীয় পরিচয়পত্র নম্বর
+                          </label>
+                          <div class="col-md-7">
+                            <input
+                              type="text"
+                              applicantid="252506"
+                              class="form-control"
+                              id="identity"
+                              placeholder=""
+                              value="19901918191000056, 9554434408"
+                              disabled=""
+                              data-original="19901918191000056, 9554434408"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="form-group row">
+                          <label for="dob" class="col-md-4 col-form-label mr-30"
+                            >জন্ম তারিখ
+                          </label>
+                          <div class="col-md-7">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="dob"
+                              placeholder=""
+                              value="৩০ ডিসেম্বর ১৯৯০"
+                              disabled=""
+                              data-original="৩০ ডিসেম্বর ১৯৯০"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="form-group row">
+                          <label
+                            for="mobile"
+                            class="col-md-4 col-form-label mr-30"
+                            >মোবাইল নম্বর
+                          </label>
+                          <div class="col-md-7">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="mobile"
+                              placeholder=""
+                              value="01973486600"
+                              disabled=""
+                              data-original="01973486600"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="form-group row">
+                          <label
+                            for="annualIncome"
+                            class="col-md-4 col-form-label mr-30"
+                            >বার্ষিক আয়
+                          </label>
+                          <div class="col-md-7">
+                            <input
+                              type="number"
+                              class="form-control"
+                              id="annualIncome"
+                              placeholder="আপনার বার্ষিক আয় টাইপ করুন"
+                              value=""
+                              data-original=""
+                            />
+                          </div>
+                        </div>
+
+                        <div class="form-group row">
+                          <label
+                            for="occupation"
+                            class="col-md-4 col-form-label mr-30"
+                            >পেশা</label
+                          >
+                          <div class="col-md-7">
+                            <div class="">
+                              <select
+                                id="occupation"
+                                data-select2-id="select2-data-occupation"
+                                tabindex="-1"
+                                class="select2-hidden-accessible"
+                                aria-hidden="true"
+                                data-original="-1"
+                              >
+                                <option
+                                  value="-1"
+                                  selected=""
+                                  data-select2-id="select2-data-6-s7aw"
+                                >
+                                  নির্বাচন করুন
+                                </option>
+                                <option value="1">শিক্ষক - Teacher</option>
+                                <option value="2">প্রকৌশলী - Engineer</option>
+                                <option value="3">ডাক্তার - Doctor</option>
+                                <option value="4">
+                                  দন্ত্য চিকিৎসক - Dentist
+                                </option>
+                                <option value="5">
+                                  বেসরকারি চাকরিজীবী - Private Service
+                                </option>
+                                <option value="6">
+                                  সরকারি চাকরিজীবী - Govt. Service
+                                </option>
+                                <option value="7">
+                                  ছোট ব্যবসা - Small Business
+                                </option>
+                                <option value="8">ব্যবসা - Business</option>
+                                <option value="9">
+                                  দিনমুজুর - Daily Labor
+                                </option>
+                                <option value="10">গৃহিণী - Housewife</option>
+                                <option value="11">বেকার - Unemployed</option>
+                                <option value="12">আইনজীবী - Lawyer</option>
+                                <option value="13">
+                                  সাংবাদিক - Journalist
+                                </option>
+                                <option value="14">
+                                  ফ্রিল্যান্সার - Freelancer
+                                </option>
+                                <option value="15">
+                                  ফটোগ্রাফি - Photography
+                                </option>
+                                <option value="16">
+                                  ইন্টেরিয়র ডিজাইনিং - Interior Designer
+                                </option>
+                                <option value="17">
+                                  ফিল্ম মেকিং - Film Making
+                                </option>
+                                <option value="18">অভিনেতা - Actor</option>
+                                <option value="19">
+                                  ফ্যাশন ডিজাইনিং - Fashion Designer
+                                </option>
+                                <option value="20">
+                                  মেক-আপ আর্টিস্ট - Makeup artist
+                                </option>
+                                <option value="21">
+                                  কৃষক - Farmer
+                                </option></select
+                              ><span
+                                class="select2 select2-container select2-container--default"
+                                dir="ltr"
+                                data-select2-id="select2-data-5-fzro"
+                                style="width: 100%"
+                                ><span class="selection"
+                                  ><span
+                                    class="select2-selection select2-selection--single"
+                                    role="combobox"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    tabindex="0"
+                                    aria-disabled="false"
+                                    aria-labelledby="select2-occupation-container"
+                                    aria-controls="select2-occupation-container"
+                                    ><span
+                                      class="select2-selection__rendered"
+                                      id="select2-occupation-container"
+                                      role="textbox"
+                                      aria-readonly="true"
+                                      title="নির্বাচন করুন"
+                                      >নির্বাচন করুন</span
+                                    ><span
+                                      class="select2-selection__arrow"
+                                      role="presentation"
+                                      ><b
+                                        role="presentation"
+                                      ></b></span></span></span
+                                ><span
+                                  class="dropdown-wrapper"
+                                  aria-hidden="true"
+                                ></span
+                              ></span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form-group row">
+                          <label
+                            for="livingCountryId"
+                            class="col-md-4 col-form-label mr-30"
+                            >বসবাসরত দেশ</label
+                          >
+                          <div class="col-md-7">
+                            <div class="">
+                              <select
+                                id="livingCountryId"
+                                data-select2-id="select2-data-livingCountryId"
+                                tabindex="-1"
+                                class="select2-hidden-accessible"
+                                aria-hidden="true"
+                                data-original="-1"
+                              >
+                                <option
+                                  value="-1"
+                                  selected=""
+                                  data-select2-id="select2-data-8-ot2d"
+                                >
+                                  নির্বাচন করুন
+                                </option>
+                                <option value="1">Afghanistan</option>
+                                <option value="2">Albania</option>
+                                <option value="3">Algeria</option>
+                                <option value="4">American Samoa</option>
+                                <option value="5">Andorra</option>
+                                <option value="6">Angola</option>
+                                <option value="7">Anguilla</option>
+                                <option value="8">Antarctica</option>
+                                <option value="9">Antigua</option>
+                                <option value="10">Argentina</option>
+                                <option value="11">Armenia</option>
+                                <option value="12">Aruba</option>
+                                <option value="13">Ascension</option>
+                                <option value="14">Australia</option>
+                                <option value="15">
+                                  Australian External Territories
+                                </option>
+                                <option value="16">Austria</option>
+                                <option value="17">Azerbaijan</option>
+                                <option value="18">Bahamas</option>
+                                <option value="19">Bahrain</option>
+                                <option value="20">Bangladesh</option>
+                                <option value="21">Barbados</option>
+                                <option value="22">Barbuda</option>
+                                <option value="23">Belarus</option>
+                                <option value="24">Belgium</option>
+                                <option value="25">Belize</option>
+                                <option value="26">Benin</option>
+                                <option value="27">Bermuda</option>
+                                <option value="28">Bhutan</option>
+                                <option value="29">Bolivia</option>
+                                <option value="30">
+                                  Bosnia and Herzegovina
+                                </option>
+                                <option value="31">Botswana</option>
+                                <option value="32">Brazil</option>
+                                <option value="33">
+                                  British Virgin Islands
+                                </option>
+                                <option value="34">Brunei Darussalam</option>
+                                <option value="35">Bulgaria</option>
+                                <option value="36">Burkina Faso</option>
+                                <option value="37">Burundi</option>
+                                <option value="38">Cambodia</option>
+                                <option value="39">Cameroon</option>
+                                <option value="40">Canada</option>
+                                <option value="41">Cape Verde Islands</option>
+                                <option value="42">Cayman Islands</option>
+                                <option value="43">
+                                  Central African Republic
+                                </option>
+                                <option value="44">Chad</option>
+                                <option value="45">
+                                  Chatham Island (New Zealand)
+                                </option>
+                                <option value="46">Chile</option>
+                                <option value="47">China (PRC)</option>
+                                <option value="48">Christmas Island</option>
+                                <option value="49">
+                                  Cocos-Keeling Islands
+                                </option>
+                                <option value="50">Colombia</option>
+                                <option value="51">Comoros</option>
+                                <option value="52">Congo</option>
+                                <option value="53">
+                                  Congo, Dem. Rep. of&nbsp; (former Zaire)
+                                </option>
+                                <option value="54">Cook Islands</option>
+                                <option value="55">Costa Rica</option>
+                                <option value="57">Croatia</option>
+                                <option value="58">Cuba</option>
+                                <option value="59">
+                                  Cuba (Guantanamo Bay)
+                                </option>
+                                <option value="60">Curaçao</option>
+                                <option value="61">Cyprus</option>
+                                <option value="62">Czech Republic</option>
+                                <option value="63">Denmark</option>
+                                <option value="64">Diego Garcia</option>
+                                <option value="65">Djibouti</option>
+                                <option value="66">Dominica</option>
+                                <option value="67">Dominican Republic</option>
+                                <option value="74">
+                                  EMSAT (Mobile Satellite service)
+                                </option>
+                                <option value="68">East Timor</option>
+                                <option value="69">Easter Island</option>
+                                <option value="70">Ecuador</option>
+                                <option value="71">Egypt</option>
+                                <option value="72">El Salvador</option>
+                                <option value="73">
+                                  Ellipso (Mobile Satellite service)
+                                </option>
+                                <option value="75">Equatorial Guinea</option>
+                                <option value="76">Eritrea</option>
+                                <option value="77">Estonia</option>
+                                <option value="78">Ethiopia</option>
+                                <option value="79">
+                                  Falkland Islands (Malvinas)
+                                </option>
+                                <option value="80">Faroe Islands</option>
+                                <option value="81">Fiji Islands</option>
+                                <option value="82">Finland</option>
+                                <option value="83">France</option>
+                                <option value="84">French Antilles</option>
+                                <option value="85">French Guiana</option>
+                                <option value="86">French Polynesia</option>
+                                <option value="87">Gabonese Republic</option>
+                                <option value="88">Gambia</option>
+                                <option value="89">Georgia</option>
+                                <option value="90">Germany</option>
+                                <option value="91">Ghana</option>
+                                <option value="92">Gibraltar</option>
+                                <option value="93">Greece</option>
+                                <option value="94">Greenland</option>
+                                <option value="95">Grenada</option>
+                                <option value="96">Guadeloupe</option>
+                                <option value="97">Guam</option>
+                                <option value="98">Guantanamo Bay</option>
+                                <option value="99">Guatemala</option>
+                                <option value="101">Guinea</option>
+                                <option value="100">Guinea-Bissau</option>
+                                <option value="102">Guyana</option>
+                                <option value="103">Haiti</option>
+                                <option value="104">Honduras</option>
+                                <option value="105">Hong Kong</option>
+                                <option value="106">Hungary</option>
+                                <option value="107">Iceland</option>
+                                <option value="108">India</option>
+                                <option value="109">Indonesia</option>
+                                <option value="110">Iran</option>
+                                <option value="111">Iraq</option>
+                                <option value="112">Ireland</option>
+                                <option value="113">Israel</option>
+                                <option value="114">Italy</option>
+                                <option value="56">Ivory Coast</option>
+                                <option value="115">Jamaica</option>
+                                <option value="116">Japan</option>
+                                <option value="117">Jordan</option>
+                                <option value="118">Kazakhstan</option>
+                                <option value="119">Kenya</option>
+                                <option value="120">Kiribati</option>
+                                <option value="123">Kuwait</option>
+                                <option value="124">Kyrgyz Republic</option>
+                                <option value="125">Laos</option>
+                                <option value="126">Latvia</option>
+                                <option value="127">Lebanon</option>
+                                <option value="128">Lesotho</option>
+                                <option value="129">Liberia</option>
+                                <option value="130">Libya</option>
+                                <option value="131">Liechtenstein</option>
+                                <option value="132">Lithuania</option>
+                                <option value="133">Luxembourg</option>
+                                <option value="134">Macao</option>
+                                <option value="135">
+                                  Macedonia (Former Yugoslav Rep of.)
+                                </option>
+                                <option value="136">Madagascar</option>
+                                <option value="137">Malawi</option>
+                                <option value="138">Malaysia</option>
+                                <option value="139">Maldives</option>
+                                <option value="140">Mali Republic</option>
+                                <option value="141">Malta</option>
+                                <option value="142">Marshall Islands</option>
+                                <option value="143">Martinique</option>
+                                <option value="144">Mauritania</option>
+                                <option value="145">Mauritius</option>
+                                <option value="146">Mayotte Island</option>
+                                <option value="147">Mexico</option>
+                                <option value="148">
+                                  Micronesia, (Federal States of)
+                                </option>
+                                <option value="149">Midway Island</option>
+                                <option value="150">Moldova</option>
+                                <option value="151">Monaco</option>
+                                <option value="152">Mongolia</option>
+                                <option value="153">Montenegro</option>
+                                <option value="154">Montserrat</option>
+                                <option value="155">Morocco</option>
+                                <option value="156">Mozambique</option>
+                                <option value="157">Myanmar</option>
+                                <option value="158">Namibia</option>
+                                <option value="159">Nauru</option>
+                                <option value="160">Nepal</option>
+                                <option value="161">Netherlands</option>
+                                <option value="162">
+                                  Netherlands Antilles
+                                </option>
+                                <option value="163">Nevis</option>
+                                <option value="164">New Caledonia</option>
+                                <option value="165">New Zealand</option>
+                                <option value="166">Nicaragua</option>
+                                <option value="167">Niger</option>
+                                <option value="168">Nigeria</option>
+                                <option value="169">Niue</option>
+                                <option value="170">Norfolk Island</option>
+                                <option value="121">North Korea</option>
+                                <option value="171">
+                                  Northern Marianas Islands
+                                </option>
+                                <option value="172">Norway</option>
+                                <option value="173">Oman</option>
+                                <option value="174">Pakistan</option>
+                                <option value="175">Palau</option>
+                                <option value="176">
+                                  Palestinian Settlements
+                                </option>
+                                <option value="177">Panama</option>
+                                <option value="178">Papua New Guinea</option>
+                                <option value="179">Paraguay</option>
+                                <option value="180">Peru</option>
+                                <option value="181">Philippines</option>
+                                <option value="182">Poland</option>
+                                <option value="183">Portugal</option>
+                                <option value="184">Puerto Rico</option>
+                                <option value="185">Qatar</option>
+                                <option value="187">Romania</option>
+                                <option value="188">Russia</option>
+                                <option value="189">Rwandese Republic</option>
+                                <option value="186">Réunion Island</option>
+                                <option value="195">Samoa</option>
+                                <option value="196">San Marino</option>
+                                <option value="198">Saudi Arabia</option>
+                                <option value="199">Senegal</option>
+                                <option value="200">Serbia</option>
+                                <option value="201">Seychelles Republic</option>
+                                <option value="202">Sierra Leone</option>
+                                <option value="203">Singapore</option>
+                                <option value="204">Slovak Republic</option>
+                                <option value="205">Slovenia</option>
+                                <option value="206">Solomon Islands</option>
+                                <option value="207">
+                                  Somali Democratic Republic
+                                </option>
+                                <option value="208">South Africa</option>
+                                <option value="122">South Korea</option>
+                                <option value="209">Spain</option>
+                                <option value="210">Sri Lanka</option>
+                                <option value="190">St. Helena</option>
+                                <option value="191">St. Kitts/Nevis</option>
+                                <option value="192">St. Lucia</option>
+                                <option value="193">
+                                  St. Pierre and Miquelon
+                                </option>
+                                <option value="194">
+                                  St. Vincent and Grenadines
+                                </option>
+                                <option value="211">Sudan</option>
+                                <option value="212">Suriname</option>
+                                <option value="213">Swaziland</option>
+                                <option value="214">Sweden</option>
+                                <option value="215">Switzerland</option>
+                                <option value="216">Syria</option>
+                                <option value="197">
+                                  São Tomé and Principe
+                                </option>
+                                <option value="217">Taiwan</option>
+                                <option value="218">Tajikistan</option>
+                                <option value="219">Tanzania</option>
+                                <option value="220">Thailand</option>
+                                <option value="221">
+                                  Thuraya (Mobile Satellite service)
+                                </option>
+                                <option value="222">Timor Leste</option>
+                                <option value="223">Togolese Republic</option>
+                                <option value="224">Tokelau</option>
+                                <option value="225">Tonga Islands</option>
+                                <option value="226">Trinidad and Tobago</option>
+                                <option value="227">Tunisia</option>
+                                <option value="228">Turkey</option>
+                                <option value="229">Turkmenistan</option>
+                                <option value="230">
+                                  Turks and Caicos Islands
+                                </option>
+                                <option value="231">Tuvalu</option>
+                                <option value="237">US Virgin Islands</option>
+                                <option value="232">Uganda</option>
+                                <option value="233">Ukraine</option>
+                                <option value="234">
+                                  United Arab Emirates
+                                </option>
+                                <option value="235">United Kingdom</option>
+                                <option value="236">
+                                  United States of America
+                                </option>
+                                <option value="238">
+                                  Universal Personal Telecommunications (UPT)
+                                </option>
+                                <option value="239">Uruguay</option>
+                                <option value="240">Uzbekistan</option>
+                                <option value="241">Vanuatu</option>
+                                <option value="242">Vatican City</option>
+                                <option value="243">Venezuela</option>
+                                <option value="244">Vietnam</option>
+                                <option value="245">Wake Island</option>
+                                <option value="246">
+                                  Wallis and Futuna Islands
+                                </option>
+                                <option value="247">Yemen</option>
+                                <option value="248">Zambia</option>
+                                <option value="249">Zanzibar</option>
+                                <option value="250">Zimbabwe</option></select
+                              ><span
+                                class="select2 select2-container select2-container--default"
+                                dir="ltr"
+                                data-select2-id="select2-data-7-oo81"
+                                style="width: 100%"
+                                ><span class="selection"
+                                  ><span
+                                    class="select2-selection select2-selection--single"
+                                    role="combobox"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    tabindex="0"
+                                    aria-disabled="false"
+                                    aria-labelledby="select2-livingCountryId-container"
+                                    aria-controls="select2-livingCountryId-container"
+                                    ><span
+                                      class="select2-selection__rendered"
+                                      id="select2-livingCountryId-container"
+                                      role="textbox"
+                                      aria-readonly="true"
+                                      title="নির্বাচন করুন"
+                                      >নির্বাচন করুন</span
+                                    ><span
+                                      class="select2-selection__arrow"
+                                      role="presentation"
+                                      ><b
+                                        role="presentation"
+                                      ></b></span></span></span
+                                ><span
+                                  class="dropdown-wrapper"
+                                  aria-hidden="true"
+                                ></span
+                              ></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4 order-0 order-md-1 mt-md-0">
+                        <div class="image-block text-center">
+                          <img loading="lazy" decoding="async"
+                          src="data:image/png;base64,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"
+                          )"="" alt="মোঃ রুহুল আমীন Photo" class="img-fluid
+                          clientPhoto" style="vertical-align: middle;">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="border-bottom mb-3 mt-3"></div>
+
+                    <div class="row form-group">
+                      <label for="banglaName" class="col-md-3 col-form-label"
+                        >আবেদনকারীর নাম
+                      </label>
+                      <div class="col-md-9">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="banglaName"
+                          placeholder=""
+                          autocomplete="off"
+                          value="মোঃ রুহুল আমীন"
+                          disabled=""
+                          data-original="মোঃ রুহুল আমীন"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <label for="englishName" class="col-md-3 col-form-label"
+                        >আবেদনকারীর নাম (ইংরেজিতে)</label
+                      >
+                      <div class="col-md-9">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="englishName"
+                          placeholder=""
+                          autocomplete="off"
+                          value="Md Ruhul Amin"
+                          disabled=""
+                          data-original="Md Ruhul Amin"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <label for="fatherNameBn" class="col-md-3 col-form-label"
+                        >পিতার নাম
+                      </label>
+                      <div class="col-md-9">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="fatherNameBn"
+                          placeholder=""
+                          autocomplete="off"
+                          value="মোঃ আঃ আওয়াল"
+                          disabled=""
+                          data-original="মোঃ আঃ আওয়াল"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <label for="motherNameBn" class="col-md-3 col-form-label"
+                        >মাতার নাম
+                      </label>
+                      <div class="col-md-9">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="motherNameBn"
+                          placeholder=""
+                          autocomplete="off"
+                          value="মোসাম্মদ অজুফা খাতুন"
+                          disabled=""
+                          data-original="মোসাম্মদ অজুফা খাতুন"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <label
+                        for="presentAddress"
+                        class="col-md-3 col-form-label"
+                        >বর্তমান ঠিকানা
+                      </label>
+                      <div class="col-md-9">
+                        <textarea
+                          class="form-control"
+                          name=""
+                          id="presentAddress"
+                          cols="30"
+                          rows="2"
+                          data-original="বাসা/হোল্ডিং: বাইড়া/ গাঙ্গাঁপাড়, গ্রাম/রাস্তা: বাইড়া, ডাকঘর: বাইড়া-3542, উপজেলা: মুরাদনগর, জেলা: কুমিল্লা, বিভাগ: চট্টগ্রাম"
+                        >
+বাসা/হোল্ডিং: বাইড়া/ গাঙ্গাঁপাড়, গ্রাম/রাস্তা: বাইড়া, ডাকঘর: বাইড়া-3542, উপজেলা: মুরাদনগর, জেলা: কুমিল্লা, বিভাগ: চট্টগ্রাম</textarea
+                        >
+                      </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <label for="mobile" class="col-md-3 col-form-label"
+                        >স্থায়ী ঠিকানা
+                      </label>
+                      <div class="col-md-9">
+                        <textarea
+                          class="form-control"
+                          name=""
+                          id="permanentAddress"
+                          cols="30"
+                          rows="2"
+                          disabled=""
+                          data-original="বাসা/হোল্ডিং: বাইড়া/ গাঙ্গাঁপাড়, গ্রাম/রাস্তা: বাইড়া, ডাকঘর: বাইড়া-3542, উপজেলা: মুরাদনগর, জেলা: কুমিল্লা, বিভাগ: চট্টগ্রাম"
+                        >
+বাসা/হোল্ডিং: বাইড়া/ গাঙ্গাঁপাড়, গ্রাম/রাস্তা: বাইড়া, ডাকঘর: বাইড়া-3542, উপজেলা: মুরাদনগর, জেলা: কুমিল্লা, বিভাগ: চট্টগ্রাম</textarea
+                        >
+                      </div>
+                    </div>
+                    <div class="row form-group">
+                      <label
+                        for="division"
+                        class="col-md-1 offset-3 col-form-label"
+                        >বিভাগ</label
+                      >
+                      <div class="col-md-8">
+                        <div class="select">
+                          <select id="division" data-original="20">
+                            <option value="-1" selected="">
+                              নির্বাচন করুন
+                            </option>
+
+                            <option value="10">বরিশাল</option>
+                            <option value="20">চট্টগ্রাম</option>
+                            <option value="30">ঢাকা</option>
+                            <option value="40">খুলনা</option>
+                            <option value="50">রাজশাহী</option>
+                            <option value="55">রংপুর</option>
+                            <option value="60">সিলেট</option>
+                            <option value="45">ময়মনসিংহ</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <label
+                        for="district"
+                        class="col-md-1 offset-3 col-form-label"
+                        >জেলা</label
+                      >
+                      <div class="col-md-8">
+                        <div class="select">
+                          <select id="district" data-original="2019">
+                            <option value="-1" selected="">
+                              নির্বাচন করুন
+                            </option>
+                            <option value="2003">বান্দরবান</option>
+                            <option value="2012">ব্রাহ্মণবাড়িয়া</option>
+                            <option value="2013">চাঁদপুর</option>
+                            <option value="2015">চট্টগ্রাম</option>
+                            <option value="2019">কুমিল্লা</option>
+                            <option value="2022">কক্সবাজার</option>
+                            <option value="2030">ফেনী</option>
+                            <option value="2046">খাগড়াছড়ি</option>
+                            <option value="2051">লক্ষ্মীপুর</option>
+                            <option value="2075">নোয়াখালী</option>
+                            <option value="2084">রাঙ্গামাটি</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row form-group">
+                      <label
+                        for="upazila"
+                        class="col-md-1 offset-3 col-form-label"
+                        >উপজেলা</label
+                      >
+                      <div class="col-md-8">
+                        <div class="select">
+                          <select id="upazila" data-original="201981">
+                            <option value="-1" selected="">
+                              নির্বাচন করুন
+                            </option>
+                            <option value="201909">বরুড়া</option>
+                            <option value="201915">ব্রাহ্মণপাড়া</option>
+                            <option value="201918">বুড়িচং</option>
+                            <option value="201927">চান্দিনা</option>
+                            <option value="201931">চৌদ্দগ্রাম</option>
+                            <option value="201933">কুমিল্লা সদর দক্ষিণ</option>
+                            <option value="201936">দাউদকান্দি</option>
+                            <option value="201940">দেবিদ্বার</option>
+                            <option value="201954">হোমনা</option>
+                            <option value="201967">কুমিল্লা আদর্শ সদর</option>
+                            <option value="201972">লাকসাম</option>
+                            <option value="201973">লালমাই</option>
+                            <option value="201974">মনোহরগঞ্জ</option>
+                            <option value="201975">মেঘনা</option>
+                            <option value="201981">মুরাদনগর</option>
+                            <option value="201987">নাঙ্গলকোট</option>
+                            <option value="201994">তিতাস</option>
+                          </select>
+                        </div>
+
+                        <div
+                          class="alert alert-warning mt-1 mb-0 pb-0"
+                          role="alert"
+                        >
+                          <p class="text-black">
+                            সক্রিয়ভাবে পূরণ করা তথ্য, চাইলে পরিবর্তন করা যাবে
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  id="scheme"
+                  class="tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="scheme"
+                  style="display: none"
+                >
+                  <div class="" id="twoContent">
+                    <div class="align-items-start">
+                      <div class="row form-group">
+                        <label for="packageId" class="col-md-3 col-form-label"
+                          >স্কিম</label
+                        >
+                        <div class="col-md-9">
+                          <div class="select">
+                            <select
+                              id="packageId"
+                              disabled=""
+                              data-original="5"
+                            >
+                              <option value="-1" selected="">
+                                নির্বাচন করুন
+                              </option>
+                              <option value="1">
+                                প্রবাস (প্রবাসী বাংলাদেশি)
+                              </option>
+                              <option value="2">
+                                প্রগতি (বেসরকারি কর্মচারী/প্রতিষ্ঠান)
+                              </option>
+                              <option value="4">
+                                সুরক্ষা (স্বকর্ম ও অ-প্রাতিষ্ঠানিক কর্মী)
+                              </option>
+                              <option value="5">সমতা (অস্বচ্ছল ব্যক্তি)</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row form-group">
+                        <label
+                          for="packageInstallmentDiv"
+                          class="col-md-3 col-form-label"
+                          >মাসিক চাঁদার পরিমাণ</label
+                        >
+                        <div id="packageInstallmentDiv" class="col-md-9">
+                          <div class="form-check form-check-inline">
+                            <input
+                              class="form-check form-check-input"
+                              type="radio"
+                              name="packageName"
+                              value="14"
+                              id="packageName514"
+                              calculation="1000"
+                            /><label
+                              class="form-check-label"
+                              for="packageName514"
+                              >১,০০০.০০ টাকা</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row form-group">
+                        <label
+                          for="packagePeriodDiv"
+                          class="col-md-3 col-form-label"
+                          >চাঁদা পরিশোধের ধরন</label
+                        >
+                        <div id="packagePeriodDiv" class="col-md-9">
+                          <div class="form-check form-check-inline">
+                            <input
+                              class="form-check form-check-input"
+                              type="radio"
+                              name="periodName"
+                              value="33"
+                              id="periodName533"
+                              calculation="1"
+                            /><label
+                              class="form-check-label"
+                              for="periodName533"
+                              >মাসিক</label
+                            >
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input
+                              class="form-check form-check-input"
+                              type="radio"
+                              name="periodName"
+                              value="34"
+                              id="periodName534"
+                              calculation="3"
+                            /><label
+                              class="form-check-label"
+                              for="periodName534"
+                              >ত্রৈমাসিক
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input
+                              class="form-check form-check-input"
+                              type="radio"
+                              name="periodName"
+                              value="36"
+                              id="periodName536"
+                              calculation="12"
+                            /><label
+                              class="form-check-label"
+                              for="periodName536"
+                              >বার্ষিক</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row form-group">
+                        <label for="" class="col-md-3 col-form-label"></label>
+                        <div id="" class="col-md-9">
+                          <label id="installmentAmount"></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  id="bank"
+                  class="tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="bank"
+                  style="display: none"
+                >
+                  <div class="" id="threeContent" role="tabpanel">
+                    <div class="align-items-start">
+                      <div class="row form-group">
+                        <label for="mobile" class="col-md-3 col-form-label"
+                          >ব্যাংক হিসাবের নাম</label
+                        >
+                        <div class="col-md-9">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="bankAccountName"
+                            placeholder=""
+                            value="Md Ruhul Amin"
+                            data-original="Md Ruhul Amin"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="row form-group">
+                        <label
+                          for="bankAccountNumber"
+                          class="col-md-3 col-form-label"
+                          >ব্যাংক একাউন্ট নম্বর</label
+                        >
+                        <div class="col-md-9">
+                          <input
+                            type="number"
+                            class="form-control"
+                            id="bankAccountNumber"
+                            placeholder=""
+                            autocomplete="off"
+                            data-original=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="row form-group">
+                        <label for="accountType" class="col-md-3 col-form-label"
+                          >হিসাবের ধরন</label
+                        >
+                        <div class="col-md-9">
+                          <div class="select">
+                            <select id="accountType" data-original="-1">
+                              <option value="-1" selected="">
+                                নির্বাচন করুন
+                              </option>
+                              <option value="1">সঞ্চয়ী হিসাব</option>
+                              <option value="2">চলতি হিসাব</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row form-group">
+                        <label
+                          for="bankRoutingNumber"
+                          class="col-md-3 col-form-label"
+                          >রাউটিং নম্বর</label
+                        >
+                        <div class="col-md-5">
+                          <form>
+                            <div class="input-group">
+                              <input
+                                type="number"
+                                id="bankRoutingNumber"
+                                class="form-control"
+                                placeholder="Search"
+                                autocomplete="off"
+                                data-original=""
+                              />
+                              <button
+                                id="btnSearchRoutingNumber"
+                                class="btn btn-pension"
+                                type="submit"
+                              >
+                                <i class="fa fa-search"></i>
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+
+                        <div class="col-md-4 text-right">
+                          <button
+                            class="btn btn-pension"
+                            type="button"
+                            data-toggle="modal"
+                            data-target="#routingAddModal"
+                          >
+                            রাউটিং নম্বর জানা নাই
+                          </button>
+                        </div>
+                      </div>
+
+                      <div class="row form-group">
+                        <label for="bankName" class="col-md-3 col-form-label"
+                          >ব্যাংক নাম</label
+                        >
+                        <div class="col-md-9">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="bankName"
+                            placeholder=""
+                            disabled=""
+                            data-original=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="row form-group">
+                        <label
+                          for="bankBranchName"
+                          class="col-md-3 col-form-label"
+                          >ব্যাংক শাখা</label
+                        >
+                        <div class="col-md-9">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="bankBranchName"
+                            placeholder=""
+                            disabled=""
+                            data-original=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  id="nominee"
+                  class="tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="nominee"
+                  style="display: none"
+                >
+                  <div class="" id="fourContent">
+                    <div class="align-items-start">
+                      <form>
+                        <div id="nomineeSearch">
+                          <div class="row form-group">
+                            <label
+                              for="nomineeIdType"
+                              class="col-md-3 col-form-label"
+                              >নমিনির আইডির ধরন</label
+                            >
+                            <div class="col-md-9">
+                              <div class="select">
+                                <select id="nomineeIdType" data-original="N">
+                                  <option value="-1" disabled="">
+                                    নির্বাচন করুন
+                                  </option>
+                                  <option value="N">জাতীয় পরিচয়পত্র</option>
+                                  <option value="B">জন্ম নিবন্ধন</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row form-group">
+                            <label
+                              for="nomineeIdNumber"
+                              id="nomineeIdTypeLabel"
+                              class="col-md-3 col-form-label"
+                              >জাতীয় পরিচয়পত্র নম্বর</label
+                            >
+                            <div class="col-md-9">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="nomineeIdNumber"
+                                placeholder="১০/১৩/১৭ সংখ্যার এনআইডি নম্বর প্রদান করুন"
+                                value=""
+                                autocomplete="off"
+                                data-original=""
+                              />
+                            </div>
+                          </div>
+
+                          <div class="row form-group">
+                            <label for="" class="col-md-3 col-form-label"
+                              >জন্ম তারিখ</label
+                            >
+                            <div class="col-md-9">
+                              <div
+                                role="wrapper"
+                                class="gj-datepicker gj-datepicker-bootstrap gj-unselectable input-group"
+                              >
+                                <input
+                                  type="text"
+                                  class="form-control datepicker nomineeDob gijgoDatePicker"
+                                  id="nomineeDateOfBirth"
+                                  placeholder="DD-MM-YYYY"
+                                  value=""
+                                  autocomplete="off"
+                                  data-type="datepicker"
+                                  data-guid="760dbcce-f779-e717-9210-f86a3e5387dd"
+                                  data-datepicker="true"
+                                  role="input"
+                                  data-original=""
+                                /><span
+                                  class="input-group-append"
+                                  role="right-icon"
+                                  ><button
+                                    class="btn btn-outline-secondary border-left-0"
+                                    type="button"
+                                  >
+                                    <i class="gj-icon">event</i>
+                                  </button></span
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row form-group">
+                            <div class="col-md-9 offset-3">
+                              <button
+                                type="submit"
+                                id="addNomineeToScreen"
+                                class="btn btn-pension"
+                              >
+                                <i class="fa fa-plus"></i> নমিনি যুক্ত করুন
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+
+                      <div id="nominneBlock" class=""></div>
+
+                      <div
+                        id="addMoreNomineeDiv"
+                        class="row form-group border-top"
+                        style="display: none"
+                      >
+                        <div
+                          class="col-md-9 offset-3 text-center mt-3 d-flex justify-content-center"
+                        >
+                          <button id="goToTop" class="btn btn-pension">
+                            <i class="fa fa-plus"></i> আরো নমিনি যুক্ত করুন
+                          </button>
+                          <button
+                            id="btnAddNominee"
+                            class="btn btn-pension d-none"
+                            disabled=""
+                          >
+                            <i class="fa fa-plus"></i> নমিনির তথ্য সংরক্ষণ করুন
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  id="preview"
+                  class="tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="preview"
+                  style="display: none"
+                >
+                  <div class="" id="fiveContent">
+                    <div id="previewData"></div>
+
+                    <div id="confirmDiv" style="display: none">
+                      <div class="row">
+                        <div class="col-12 text-center">
+                          <button class="btn btn-pension" id="btnDownload">
+                            সম্পূর্ণ আবেদনটি ডাউনলোড করুন
+                          </button>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-12">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td style="width: 4%; vertical-align: top">
+                                  <input
+                                    class=""
+                                    type="checkbox"
+                                    id="informationConfirm"
+                                    style="zoom: 2"
+                                  />
+                                </td>
+                                <td>
+                                  <label
+                                    class="form-check-label text-justify"
+                                    for=""
+                                    style="font-size: 20px"
+                                  >
+                                    আমি নিশ্চিত করছি যে, উল্লিখিত সকল তথ্য সঠিক
+                                    এবং আমি সর্বজনীন পেনশনের সকল আইন ও বিধিমালা
+                                    সম্পর্কে অবগত হয়ে এতে সম্মতি প্রদান করছি।
+                                  </label>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="toolbar-wrapper col-md-12 col-xs-12 d-flex justify-content-between"
+              >
+                <div
+                  class="sw-toolbar-elm toolbar toolbar-bottom"
+                  role="toolbar"
+                >
+                  <button class="btn sw-btn-prev sw-btn disabled" type="button">
+                    ← পূর্ববর্তী</button
+                  ><button class="btn sw-btn-next sw-btn" type="button">
+                    পরবর্তী →</button
+                  ><button
+                    class="btn btn-pension"
+                    id="btnSubmit"
+                    style="display: none"
+                    disabled=""
+                  >
+                    আবেদন সম্পন্ন করুন
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bank Modal -->
+          <div
+            class="modal fade"
+            id="routingAddModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog modal-dialog-centered modal-lg"
+              role="document"
+            >
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">
+                    ব্যাংকের নাম ও শাখা নির্বাচন
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row form-group">
+                    <label for="bankId" class="col-md-3 col-form-label"
+                      >ব্যাংক</label
+                    >
+                    <div class="col-md-9">
+                      <select
+                        id="modalBankId"
+                        data-select2-id="select2-data-modalBankId"
+                        tabindex="-1"
+                        class="select2-hidden-accessible"
+                        aria-hidden="true"
+                      >
+                        <option
+                          class="select2"
+                          value="-1"
+                          selected=""
+                          data-select2-id="select2-data-2-ls0a"
+                        >
+                          নির্বাচন করুন
+                        </option>
+                        <option value="83">ইউনিয়ন ব্যাংক লিমিটেড</option>
+                        <option value="103">এসবিএ সি ব্যাংক লিমিটেড</option>
+                        <option value="1">বাংলাদেশ ব্যাংক</option>
+                        <option value="2">সোনালী ব্যাংক লিমিটেড</option>
+                        <option value="3">অগ্রণী ব্যাংক লিঃ</option>
+                        <option value="4">
+                          আল-আরাফাহ ইসলামী ব্যাংক লিমিটেড
+                        </option>
+                        <option value="5">এবি ব্যাংক লিঃ</option>
+                        <option value="6">বাংলাদেশ কমার্স ব্যাংক লিঃ</option>
+                        <option value="7">বাংলাদেশ কৃষি ব্যাংক</option>
+                        <option value="8">বাংলাদেশ সমবায় ব্যাংক লিমিটেড</option>
+                        <option value="9">
+                          বাংলাদেশ ডেভেলপমেন্ট ব্যাংক লিমিটেড
+                        </option>
+                        <option value="10">বেসিক ব্যাংক লিমিটেড</option>
+                        <option value="11">ব্র্যাক ব্যাংক লিমিটেড</option>
+                        <option value="12">ব্যাংক আল-ফালাহ লিমিটেড</option>
+                        <option value="13">ব্যাংক এশিয়া লিমিটেড</option>
+                        <option value="14">সিটিব্যাংক এন.এ</option>
+                        <option value="15">কমার্শিয়াল ব্যাংক অফ সিলন</option>
+                        <option value="16">ঢাকা ব্যাংক লিমিটেড</option>
+                        <option value="17">ডাচ বাংলা ব্যাংক লিমিটেড</option>
+                        <option value="18">ইস্টার্ণ ব্যাংক লিমিটেড</option>
+                        <option value="19">এক্সিম ব্যাংক লিমিটেড</option>
+                        <option value="20">
+                          ফার্স্ট সিকিউরিটি ইসলামীব্যাংক লিমিটেড
+                        </option>
+                        <option value="21">হাবিব ব্যাংক লিমিটেড</option>
+                        <option value="22">এইচএসবিসি</option>
+                        <option value="23">আইএফআইসি ব্যাংক লিমিটেড</option>
+                        <option value="24">ইসলামী ব্যাংক বাংলাদেশ লিঃ</option>
+                        <option value="25">যমুনা ব্যাংক লিঃ</option>
+                        <option value="26">জনতা ব্যাংক লিঃ</option>
+                        <option value="27">মার্কেন্টাইল ব্যাংক লিমিটেড</option>
+                        <option value="28">
+                          মিউচুয়াল ট্রাস্ট ব্যাংক লিমিটেড
+                        </option>
+                        <option value="29">ন্যাশনাল ব্যাংক লিমিটেড</option>
+                        <option value="30">
+                          ন্যাশনাল ব্যাংক অফ পা্কিস্তান
+                        </option>
+                        <option value="31">এনসিসি ব্যাংক লিমিটেড</option>
+                        <option value="32">ওয়ান ব্যাংক লিমিটেড</option>
+                        <option value="33">প্রাইম ব্যাংক লিমিটেড</option>
+                        <option value="34">পূবালী ব্যাংক লিমিটেড</option>
+                        <option value="35">রাজশাহী কৃষি উন্নয়ন ব্যাংক</option>
+                        <option value="36">রূপালী ব্যাংক লিমিটেড</option>
+                        <option value="37">
+                          শাহজালাল ইসলামী ব্যাংক লিমিটেড
+                        </option>
+                        <option value="38">সোশাল ইসলামী ব্যাংক লিমিটেড</option>
+                        <option value="39">সাউথইস্ট ব্যাংক লিমিটেড</option>
+                        <option value="40">স্ট্যান্ডার্ড ব্যাংক লিঃ</option>
+                        <option value="41">স্টান্ডার্ড চাটার্ড ব্যাংক</option>
+                        <option value="42">স্টেট ব্যাংক অফ ইন্ডিয়া</option>
+                        <option value="43">দি সিটি ব্যাংক লিমিটেড</option>
+                        <option value="44">আইসিবি ইসলামী ব্যাংক লিমিটেড</option>
+                        <option value="45">দি প্রিমিয়ার ব্যাংক লিমিটেড</option>
+                        <option value="46">ট্রাস্ট ব্যাংক লিমিটেড</option>
+                        <option value="47">
+                          ইউনাইটেড কমার্শিয়াল ব্যাংক লিমিটেড
+                        </option>
+                        <option value="48">উত্তরা ব্যাংক লিমিটেড</option>
+                        <option value="49">উরী ব্যাংক লিমিটেড</option>
+                        <option value="50">গ্রামীণ ব্যাংক</option>
+                        <option value="51">মধুমতি ব্যাংক লিমিটেড</option>
+                        <option value="52">
+                          গ্লোবাল ইসলামী ব্যাংক লিমিটেড
+                        </option>
+                        <option value="53">পদ্মা ব্যাংক লিমিটেড</option>
+                        <option value="54">মিডল্যান্ড ব্যাংক লিমিটেড</option>
+                        <option value="55">এনআরবি ব্যাংক লিমিটেড</option>
+                        <option value="56">
+                          এন আর বি কমার্শিয়াল ব্যাংক লিমিটেড
+                        </option>
+                        <option value="223">ইমপোর্টেড ব্যাংক</option>
+                        <option value="87">কম্যুনিটি ব্যাংক বাংলাদেশ</option>
+                        <option value="85">মেঘনা ব্যাংক লিমিটেড</option>
+                        <option value="86">সীমান্ত ব্যাংক লিমিটেড</option>
+                        <option value="84">বাংলাদেশ পোষ্ট অফিস</option>
+                        <option value="88">Bengal Commercial Bank</option>
+                        <option value="224">গ্লোবাল ইসলামী ব্যাংক</option>
+                        <option value="89">
+                          সিটিজেনস ব্যাংক পিএলসি
+                        </option></select
+                      ><span
+                        class="select2 select2-container select2-container--default"
+                        dir="ltr"
+                        data-select2-id="select2-data-1-c805"
+                        style="width: 100%"
+                        ><span class="selection"
+                          ><span
+                            class="select2-selection select2-selection--single"
+                            role="combobox"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            tabindex="0"
+                            aria-disabled="false"
+                            aria-labelledby="select2-modalBankId-container"
+                            aria-controls="select2-modalBankId-container"
+                            ><span
+                              class="select2-selection__rendered"
+                              id="select2-modalBankId-container"
+                              role="textbox"
+                              aria-readonly="true"
+                              title="নির্বাচন করুন"
+                              >নির্বাচন করুন</span
+                            ><span
+                              class="select2-selection__arrow"
+                              role="presentation"
+                              ><b role="presentation"></b></span></span></span
+                        ><span
+                          class="dropdown-wrapper"
+                          aria-hidden="true"
+                        ></span
+                      ></span>
+                    </div>
+                  </div>
+
+                  <div class="row form-group">
+                    <label
+                      for="modalBankBranchId"
+                      class="col-md-3 col-form-label"
+                      >ব্যাংকের শাখা</label
+                    >
+                    <div class="col-md-9">
+                      <select
+                        class="select2 select2-hidden-accessible"
+                        id="modalBankBranchId"
+                        data-select2-id="select2-data-modalBankBranchId"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        <option
+                          value="-1"
+                          selected=""
+                          data-select2-id="select2-data-4-uaw9"
+                        >
+                          নির্বাচন করুন
+                        </option></select
+                      ><span
+                        class="select2 select2-container select2-container--default"
+                        dir="ltr"
+                        data-select2-id="select2-data-3-tpf9"
+                        style="width: 100%"
+                        ><span class="selection"
+                          ><span
+                            class="select2-selection select2-selection--single"
+                            role="combobox"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            tabindex="0"
+                            aria-disabled="false"
+                            aria-labelledby="select2-modalBankBranchId-container"
+                            aria-controls="select2-modalBankBranchId-container"
+                            ><span
+                              class="select2-selection__rendered"
+                              id="select2-modalBankBranchId-container"
+                              role="textbox"
+                              aria-readonly="true"
+                              title="নির্বাচন করুন"
+                              >নির্বাচন করুন</span
+                            ><span
+                              class="select2-selection__arrow"
+                              role="presentation"
+                              ><b role="presentation"></b></span></span></span
+                        ><span
+                          class="dropdown-wrapper"
+                          aria-hidden="true"
+                        ></span
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    id="btnAddRouting"
+                    type="button"
+                    class="btn btn-pension"
+                  >
+                    সংযোজন করুন
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Bank Modal -->
+        </div>
+      </div>
+    </div>
+
+    <div
+      role="calendar"
+      type="month"
+      class="gj-picker gj-picker-bootstrap datepicker gj-unselectable"
+      guid="760dbcce-f779-e717-9210-f86a3e5387dd"
+      month="11"
+      year="2023"
+      style="display: none"
+    >
+      <div role="body"></div>
+    </div>
+    <iframe
+      src="cid:frame-4A66A2FEBC7C75CB7E1C843FE45BE2EB@mhtml.blink"
+      style="display: none"
+    ></iframe>
+  </body>
+</html>
